@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  filter: drop-shadow(0 0 0.75rem pink);
+}
+
+img:hover {
+  filter: drop-shadow(0 0 0.75rem red);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 100px;
+}
+
+#oel {
+  grid-column: 1;
+}
+
+#snaps {
+  grid-column: 2;
+}
+
+#sport {
+  grid-column: 3;
+}
+
+#oeko {
+  grid-column: 4;
+}
